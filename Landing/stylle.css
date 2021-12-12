@@ -4,3 +4,614 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* MOBILE FIRST */
+
+@media screen and (max-width:375px){
+    
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* EDITAMOS EL HEADER */
+
+
+/* POSICIONAMOS EL ICONO DEL HEADER  */
+.header_icon svg{
+    position: absolute;
+    top: 150px;
+    right: 121px;
+}
+
+/* EDITAMOS EL TEXTO DEL HEADER */
+.header_txt{
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.header_txt h2{
+    padding: 10px 30px 20px 30px;
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    font-size: 30px;
+}
+
+.header_txt p{
+    padding-bottom: 20px;
+    color: hsl(201, 11%, 66%);
+    margin: 0 10px 0 20px;
+} 
+
+/* EDITAMOS LOS LINKS DEL HEADER */
+.header_link a{
+    display: block;
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    cursor: pointer;
+}
+
+.header_link1{
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 25px;
+    padding: 10px 60px 10px 60px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 20px;
+}
+
+.header_link2{
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 10px 60px 10px 60px;
+}
+
+
+
+
+
+/* EDITAMOS CON EL CUERPO DE LA WEB */
+
+
+
+/* EDITAMOS EL TEXTO ANTES DE LA IMAGEN DEL MONITOR */
+.body_txt{
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 100px;
+    margin-top: 150px;
+}
+
+.body_txt h2{
+    padding: 10px 50px 20px 50px;
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+}
+
+.body_txt p{
+    padding-bottom: 20px;
+    color: hsl(201, 11%, 66%);
+    margin: 0 10px 0 20px;
+}
+
+/* EDITAMOS LA IMAGEN DEL MONITOR */
+
+
+.desktop_img{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.desktop_img img{
+   width: 300px;
+}
+
+/* EDITAMOS EL TEXTO QUE VA DEBAJO DEL MONITOR */
+
+.desktop_txt{
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 200px;
+}
+
+.txt1 h2{
+    padding: 10px 50px 20px 50px;
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+}
+
+.txt2 h2{
+    padding: 10px 50px 20px 50px;
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+}
+
+.txt3 h2{
+    padding: 10px 50px 20px 50px;
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+}
+
+.txt1 p{
+    padding-bottom: 20px;
+    color: hsl(201, 11%, 66%);
+    margin: 0 10px 20px 20px;
+}
+
+.txt2 p{
+    padding-bottom: 20px;
+    color: hsl(201, 11%, 66%);
+    margin: 0 10px 20px 20px;
+}
+
+.txt3 p{
+    padding-bottom: 20px;
+    color: hsl(201, 11%, 66%);
+    margin: 0 10px 20px 20px;
+}
+
+
+/* EDITAMOS EL TEXTO ANTES DE LA IMAGEN DE DISPOSITIVOS MOBILES */
+
+.body_txt2{
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.body_txt2 h2{
+    padding: 10px 50px 20px 50px;
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+}
+
+.body_txt2 p{
+    padding-bottom: 20px;
+    color: hsl(201, 11%, 66%);
+    margin: 0 10px 20px 20px;
+}
+
+
+/* EDITAMOS LA IMAGEN DE DISPOSITIVOS MOBILES */
+
+.device_img{
+    margin-bottom: 100px;
+}
+
+
+.device_img img{
+    width: 350px;
+}
+
+/* EDITAMOS EL TEXTO DEBAJO DE LA IMAGEN DE DISPOSITIVOS MOBILES */
+
+.bodytxt3{
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.bodytxt3 h2{
+    padding: 10px 50px 20px 50px;
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+}
+
+
+.bodytxt3 p{
+    padding-bottom: 20px;
+    color: hsl(201, 11%, 66%);
+    margin: 0 10px 20px 20px;
+}
+
+
+/* EDITAMOS EL TEXTO CON ICONOS DEL CUERPO */
+
+.body_text_icon_container{
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 100px;
+}
+
+
+
+.text_icon1 h3{
+    padding: 10px 50px 20px 50px;
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    font-size: 25px;
+}
+
+.text_icon1 p{
+    padding-bottom: 20px;
+    color: hsl(201, 11%, 66%);
+    margin: 0 10px 20px 20px;
+}
+
+.text_icon2 h3{
+    padding: 10px 50px 20px 50px;
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    font-size: 25px;
+}
+
+.text_icon2 p{
+    padding-bottom: 20px;
+    color: hsl(201, 11%, 66%);
+    margin: 0 10px 20px 20px;
+}
+
+.text_icon3 h3{
+    padding: 10px 50px 20px 50px;
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    font-size: 25px;
+}
+
+.text_icon3 p{
+    padding-bottom: 20px;
+    color: hsl(201, 11%, 66%);
+    margin: 0 10px 0 20px;
+}
+
+.icon_blacklist{
+    padding: 30px;
+}
+
+.icon_text{
+    padding: 30px;
+}
+
+.icon_sneak{
+    padding: 30px;
+}
+
+/* EDITAMOS LOS LOGOS DE GRANDES EMPRESAS AL FINAL DEL BODY */
+
+.logo_container{
+    margin-bottom: 100px;
+}
+
+.google_logo{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.ibm_logo{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.microsoft_logo{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.hp_logo{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.vector_logo{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+/* EDITAMOS EL ULTIMO TEXTO DEL BODY */
+
+.body_txt4{
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.body_txt4 h2{
+    padding: 10px 30px 20px 30px;
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    font-size: 30px;
+}
+
+.body_txt4 p{
+    padding-bottom: 20px;
+    color: hsl(201, 11%, 66%);
+    margin: 0 10px 0 20px;
+}
+
+/* EDITAMOS LOS LINKS DEL FINAL DEL BODY */
+
+.body_link a{
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    cursor: pointer;
+}
+
+.body_link1{
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 25px;
+    padding: 10px 60px 10px 60px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 20px;
+}
+
+.body_link2{
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 10px 60px 10px 60px;
+}
+
+/* EDITAMOS EL FOOTER */
+
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    margin-top: 100px;
+}
+
+
+.footer_icon{
+    margin-top: 40px;
+    margin-bottom: -100px;
+}
+
+
+
+.footer_links {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 129px;
+}
+
+.footer_links a{
+    padding: 20px 0 20px 0;
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+
+.socialMedia_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook_icon{
+    margin: -100px 20px 20px 20px;
+}
+.twitter_icon{
+    margin: -100px 20px 20px 20px;
+}
+
+.instagram_icon{
+    margin: -100px 20px 20px 20px;
+}
+
+}
+
+/* EMPEZAMOS CON EL DESKTOP DESIGN */
+@media screen and (min-width:376px){
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* EDITAMOS EL HEADER DE LA LANDING */
+
+.header_icon{
+    background: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+}
+
+.header_icon img{
+    opacity: 0.0;
+}
+
+.header_icon svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto -300px ;
+}
+
+.header_txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 80px 80px 80px;
+    width: 800px;
+    
+}
+
+.header_txt h2{
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    font-size: 40px;
+    
+}
+
+.header_txt p{
+    color: hsl(201, 11%, 66%);
+    margin-top: 20px; 
+}
+
+.header_link{
+    display: flex;
+}
+
+.header_link a{
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    cursor: pointer;
+}
+
+.header_link1{
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-right: 20px;
+}
+.header_link2{
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 10px 40px 10px 40px;
+}
+
+/* EDITAMOS EL BODY */
+
+.body_txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 80px 80px 80px;
+    width: 800px;
+    margin-top: 100px;
+}
+
+.body_txt h2{
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    font-size: 30px;
+}
+
+.body_txt p{
+    color: hsl(201, 11%, 66%);
+    margin-top: 20px; 
+}
+
+.desktopContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.desktop_img img{
+    width: 500px;
+}
+
+.txt1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    margin-left: 60px;
+    width: 350px;
+}
+.txt2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 350px;
+}
+.txt3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 350px;
+}
+
+.txt1 h2{
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+}
+.txt2 h2{
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+}
+.txt3 h2{
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+}
+.txt1 p{
+    color: hsl(201, 11%, 66%);
+    font-size: 15px;
+    margin-top: 5px;
+}
+.txt2 p{
+    color: hsl(201, 11%, 66%);
+    font-size: 15px;
+    margin-top: 5px; 
+}
+.txt3 p{
+    color: hsl(201, 11%, 66%);
+    font-size: 15px;
+    margin-top: 5px; 
+}
+
+
+.body_txt2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 80px 80px 80px;
+    width: 800px;
+    margin-top: 100px;
+}
+
+.body_txt2 h2{
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    font-size: 25px;
+}
+
+.body_txt2 p{
+    color: hsl(201, 11%, 66%);
+    margin-top: 20px; 
+}
+
+.device_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.device_img img{
+    width: 800px;
+}
+
+
+}
