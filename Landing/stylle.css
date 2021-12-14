@@ -372,7 +372,7 @@
 
 
 
-.footer_links {
+.footer_links{
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -386,6 +386,24 @@
     color: hsl(210, 10%, 33%);
 }
 
+.footerLinks1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerLinks2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerLinks3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .socialMedia_icons{
     display: flex;
     justify-content: center;
@@ -612,6 +630,263 @@
 .device_img img{
     width: 800px;
 }
+
+.bodytxt3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 80px 80px 80px;
+    width: 800px;
+    margin-top: 50px;
+}
+
+.bodytxt3 h2{
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    font-size: 25px;
+}
+
+.bodytxt3 p{
+    color: hsl(201, 11%, 66%);
+    margin-top: 20px; 
+}
+
+/* EDITAMOPS EL TEXTO CON ICONOS DEL BODY */
+
+.body_text_icon_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 950px;
+    margin-bottom: 60px;
+}
+
+.text_icon1{
+    margin-right: 40px;
+    width: 500px;
+}
+
+.text_icon2{
+    width: 500px;
+}
+
+.text_icon3{
+    margin-left: 30px;
+    width: 500px;
+}
+
+.text_icon1 h3{
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+}
+
+.text_icon2 h3{
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+}
+
+.text_icon3 h3{
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+}
+
+.text_icon1 p{
+    color: hsl(201, 11%, 66%);
+    margin-top: 10px; 
+    font-size: 15px;
+}
+
+.text_icon2 p{
+    color: hsl(201, 11%, 66%);
+    margin-top: 15px; 
+    font-size: 15px;
+}
+
+.text_icon3 p{
+    color: hsl(201, 11%, 66%);
+    margin-top: 15px; 
+    font-size: 15px;
+}
+
+.icon_blacklist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.icon_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.icon_sneak{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+/* EDITAMOS LOS LOGOS DEL BODY */
+
+.logo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.google_logo{
+    margin: 40px;
+}
+
+.ibm_logo{
+    margin: 40px;
+}
+
+.microsoft_logo{
+    margin: 40px;
+}
+
+.hp_logo{
+    margin: 40px;
+}
+
+/* ULTIMO TEXTO DEL BODY */
+.body_txt4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 80px 80px 80px;
+    width: 800px;
+    margin-top: 50px;
+}
+
+.body_txt4 h2{
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    font-size: 25px;
+}
+
+.body_txt4 p{
+    color: hsl(201, 11%, 66%);
+    margin-top: 20px; 
+}
+
+/* ULTIMOS LINKS DEL BODY */
+
+.body_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.body_link a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.body_link1{
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-right: 20px;
+}
+
+.body_link2{
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 10px 40px 10px 40px;
+
+}
+
+/* EDITAMOS EL FOOTER */
+
+.footer_container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: #f3f3f3ef;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.footer_icon {
+    padding: 20px 50px 0 50px;
+}
+
+.footer_links{
+    display: flex;
+    justify-content: center;
+}
+
+.footerLinks1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 30px;
+}
+
+.footerLinks2{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 30px;
+}
+
+.footerLinks3{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin:30px;
+}
+
+.footer_links a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    font-size: 15px;
+    margin: 10px;
+}
+
+.socialMedia_icons{
+    position: absolute;
+    right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook_icon{
+    margin: 20px;
+    cursor: pointer;
+}
+
+.twitter_icon{
+    margin: 20px;
+    cursor: pointer;
+}
+
+.instagram_icon{
+    margin: 20px;
+    cursor: pointer;
+}
+
 
 
 }
